@@ -1,11 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
+
 .App {
-  text-align: center;
-  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #443744;
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background-image: linear-gradient(to top, #ffd6cb 0%, #ffcdff 100%);
+  font-family: 'Nunito';
+  font-size: 3rem;
+  position: absolute;
+  }
+
+.coltron-tech {
+  color: white;
 }
+
+
+

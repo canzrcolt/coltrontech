@@ -1,10 +1,12 @@
 
 import './App.css';
 
+
 function App() {
-  return (
+  return ( 
+    
     <div className="App">
-     <h1>Coltron Tech is now In Progress...</h1>
+     <h1><span className="coltron-tech">ColtronTech</span> is now in Progress...</h1>
      </div>
   );
 }
